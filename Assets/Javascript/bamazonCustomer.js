@@ -6,7 +6,7 @@ var connection = mysql.createConnection( {
     port: 3306,
     user: 'root',
     password: 'password',
-    database: 'topsongs_db'
+    database: 'bamazon_db'
 } );
 
 connection.connect( function ( err ) {
@@ -14,3 +14,11 @@ connection.connect( function ( err ) {
     console.log( 'Connected to DB' );
     start();
 } );
+
+function start() {
+    var query = "SELECT*FROM products";
+    connection.query( query, function ( err, data ) {
+        if ( err ) throw err;
+        console.log( data );
+    } )
+}
