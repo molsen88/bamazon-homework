@@ -11,3 +11,5 @@ If it isn't available, the user muse change their amount.
 If it is available, the user will have their order placed and given a total.
 
 ![Node bamazon giphy](https://github.com/molsen88/bamazon-homework/blob/master/assets/nodeAmazonGif.gif)
+
+![Node bamazon giphy](https://github.com/molsen88/bamazon-homework/blob/master/assets/nodeAmazonGif2.gif)
